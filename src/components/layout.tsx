@@ -5,7 +5,7 @@ import { container, navLinkText } from './layout.module.css';
 interface LayoutProps {
     pageTitle: string;
     children: React.ReactNode;
-} // change??
+}
 
 const Layout = ({ pageTitle, children }: LayoutProps) => {
     return (
