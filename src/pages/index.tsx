@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 import type { HeadFC } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const IndexPage = () => {
     return (
@@ -11,6 +12,14 @@ const IndexPage = () => {
                 touches👀
             </p>
             <p>This page will be more interactive soon! 😊</p>
+            <StaticImage
+                alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+            />
+            <StaticImage
+                alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                src="../images/E1oMV3QVgAIr1NT-Copy.webp"
+            />
         </Layout>
     );
 };
